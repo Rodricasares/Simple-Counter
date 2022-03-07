@@ -1,12 +1,25 @@
+.box{
+text-align: center;
+display:flex;
+justify-content: center;
+background-color: black;
 
-/* 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.box div{
 
-*/
+  color: white;
+  font-size:60px;
+  padding:16px;
+}
+/*
+.button{
+  width: 90px;
+  height: 30px;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 50px;
+padding: 2px;
+}*/
